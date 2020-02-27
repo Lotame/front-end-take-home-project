@@ -1,0 +1,40 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "Take home project for Lotame front end engineers",
+  "main": "index.js",
+  "scripts": {
+    "iamdone": "rm -rf node_modules; rm -rf dist; rm -rf .cache; pushd ../; zip -r takeHomeProject.zip take-home-project; popd;",
+    "start": "npx parcel index.html",
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone_es6": "^1.0.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "lit-html": "^1.1.2",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "underscore": "^1.9.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "jest": {
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jest-transform-stub": "^2.0.0"
+  }
+}
