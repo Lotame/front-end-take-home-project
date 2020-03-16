@@ -1,9 +1,11 @@
 # Overview
 Create an app that visualizes the data from Capital Ride Share (https://gbfs.capitalbikeshare.com/gbfs/gbfs.json). The goal is to show how you can take a user story and implement it using javascript, html, and css.
 
-__Time Limit: Please spend no more than a couple of hours on this. We respect your time so we do not expect you to spend a lot of time on this. Feel free to add TODO comments about what you would do if you had more time. __
+__*Time Limit: Please spend no more than a couple of hours on this. We respect your time so we do not expect you to spend a lot of time on this. Feel free to add TODO comments about what you would do if you had more time.*__
 
-Most of the boiler plate has been set up for you already. However, this project is only partially reflective of current Lotame front end technology.
+Most of the boiler plate has been set up for you already. However, this project is only partially reflective of current Lotame front end technology. Our front end uses Backbone, if you are not currently comfortable with Backbone, feel free to rip it out and use what you are comfortable with. 
+
+Our goal is for you to spend a few hours implementing the user story below so we can discuss your code and the choices you made with it in your next interview.
 
 ## User Story
 As a tourist in Washington D.C., I want to know where I can rent a bike so that I can easily tour the city.
